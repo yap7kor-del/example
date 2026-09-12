@@ -46,3 +46,6 @@ jobs:
         with:
           name: calculator-executable
           path: build/calculator_app
+        run: |
+          cd build
+          ls -R
